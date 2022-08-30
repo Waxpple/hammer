@@ -18,7 +18,7 @@
   ],
   "tarballs": [
     {
-      "path": "ASAP7_PDK_CalibreDeck.tar",
+      "path": "calibredecks_r1p7.tar.bz2",
       "homepage": "http://asap.asu.edu/asap/",
       "base var": "technology.asap7.tarball_dir"
     }
@@ -30,7 +30,7 @@
     {
       "tool name": "calibre",
       "deck name": "all_drc",
-      "path": "ASAP7_PDK_CalibreDeck.tar/calibredecks_r1p7/calibre/ruledirs/drc/drcRules_calibre_asap7.rul"
+      "path": "calibredecks_r1p7.tar.bz2/calibredecks_r1p7/calibre/ruledirs/drc/drcRules_calibre_asap7.rul"
     }
   ],
   "additional_drc_text": "EXCLUDE CELL \"SRAM*RW*\"",
@@ -39,7 +39,7 @@
     {
       "tool name": "calibre",
       "deck name": "all_lvs",
-      "path": "ASAP7_PDK_CalibreDeck.tar/calibredecks_r1p7/calibre/ruledirs/lvs/lvsRules_calibre_asap7.rul"
+      "path": "calibredecks_r1p7.tar.bz2/calibredecks_r1p7/calibre/ruledirs/lvs/lvsRules_calibre_asap7.rul"
     }
   ],
   "additional_lvs_text": "LVS SPICE EXCLUDE CELL \"SRAM*RW*\"\nLVS BOX \"SRAM*RW*\"\nLVS FILTER \"SRAM*RW*\" OPEN",
@@ -839,7 +839,7 @@
       }
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_RVT_TT_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_RVT_TT_nldm_220123.lib.gz",
       "verilog sim": "$STDCELLS/Verilog/asap7sc7p5t_SEQ_RVT_TT_220101.v",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_R_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_R.cdl",
@@ -862,7 +862,7 @@
       ]
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_RVT_SS_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_RVT_SS_nldm_220123.lib.gz",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_R_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_R.cdl",
       "gds file": "$STDCELLS/GDS/asap7sc7p5t_28_R_220121a.gds",
@@ -884,7 +884,7 @@
       ]
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib.gz",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_R_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_R.cdl",
       "gds file": "$STDCELLS/GDS/asap7sc7p5t_28_R_220121a.gds",
@@ -906,7 +906,7 @@
       ]
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_LVT_TT_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_LVT_TT_nldm_220123.lib.gz",
       "verilog sim": "$STDCELLS/Verilog/asap7sc7p5t_SEQ_LVT_TT_220101.v",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_L_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_L.cdl",
@@ -929,7 +929,7 @@
       ]
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_LVT_SS_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_LVT_SS_nldm_220123.lib.gz",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_L_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_L.cdl",
       "gds file": "$STDCELLS/GDS/asap7sc7p5t_28_L_220121a.gds",
@@ -951,7 +951,7 @@
       ]
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_LVT_FF_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_LVT_FF_nldm_220123.lib.gz",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_L_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_L.cdl",
       "gds file": "$STDCELLS/GDS/asap7sc7p5t_28_L_220121a.gds",
@@ -973,7 +973,7 @@
       ]
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_SLVT_TT_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_SLVT_TT_nldm_220123.lib.gz",
       "verilog sim": "$STDCELLS/Verilog/asap7sc7p5t_SEQ_SLVT_TT_220101.v",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_SL_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_SL.cdl",
@@ -996,7 +996,7 @@
       ]
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_SLVT_SS_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_SLVT_SS_nldm_220123.lib.gz",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_SL_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_SL.cdl",
       "gds file": "$STDCELLS/GDS/asap7sc7p5t_28_SL_220121a.gds",
@@ -1018,7 +1018,7 @@
       ]
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_SLVT_FF_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_SLVT_FF_nldm_220123.lib.gz",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_SL_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_SL.cdl",
       "gds file": "$STDCELLS/GDS/asap7sc7p5t_28_SL_220121a.gds",
@@ -1040,7 +1040,7 @@
       ]
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_SRAM_TT_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_SRAM_TT_nldm_220123.lib.gz",
       "verilog sim": "$STDCELLS/Verilog/asap7sc7p5t_SEQ_SRAM_TT_220101.v",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_SRAM_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_SRAM.cdl",
@@ -1057,7 +1057,7 @@
       }
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_SRAM_SS_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_SRAM_SS_nldm_220123.lib.gz",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_SRAM_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_SRAM.cdl",
       "gds file": "$STDCELLS/GDS/asap7sc7p5t_28_SRAM_220121a.gds",
@@ -1073,7 +1073,7 @@
       }
     },
     {
-      "nldm liberty file": "$STDCELLS/LIB/NLDM/asap7sc7p5t_SEQ_SRAM_FF_nldm_220123.lib.gz",
+      "nldm liberty file": "tech-asap7-cache/LIB/NLDM/asap7sc7p5t_SEQ_SRAM_FF_nldm_220123.lib.gz",
       "lef file": "$STDCELLS/LEF/scaled/asap7sc7p5t_28_SRAM_4x_220121a.lef",
       "spice file": "$STDCELLS/CDL/LVS/asap7sc7p5t_28_SRAM.cdl",
       "gds file": "$STDCELLS/GDS/asap7sc7p5t_28_SRAM_220121a.gds",
@@ -1339,7 +1339,28 @@
       }
     }
   ],
-  "dont use list": [],
+  "dont use list": [
+      "AND4x1*",
+      "SDFLx2*",
+      "AO21x1*",
+      "XOR2x2*",
+      "OAI31xp33*",
+      "OAI221xp5*",
+      "SDFLx3*",
+      "SDFLx1*",
+      "AOI211xp5*",
+      "OAI322xp33*",
+      "OR2x6*",
+      "A2O1A1O1Ixp25*",
+      "XNOR2x1*",
+      "OAI32xp33*",
+      "FAx1*",
+      "OAI21x1*",
+      "OAI31xp67*",
+      "OAI33xp33*",
+      "AO21x2*",
+      "AOI32xp33*"
+  ],
   "stackups": [
     {
       "name": "asap7_3Ma_2Mb_2Mc_2Md",
